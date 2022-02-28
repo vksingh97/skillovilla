@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  max-width: 600px;
+  margin-top: 40px;
 }
 
 .App-logo {
@@ -35,4 +37,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.commentName {
+  position: relative;
+  margin: 15px;
+  right: 180px;
+  font-size: 8px;
+}
+.commentInput {
+  position: absolute;
+  width: 50%;
+  height: 50px;
+  margin-top: 50px;
+}
+.submit-button {
+  position: absolute;
+  top: 280px;
+  right: 20px;
+}
+.comment-text {
+  position: relative;
+  margin: 5px;
+  right: 150px;
+  font-size: 8px;
+}
+.edit-button {
+  position: absolute;
+  width: 5%;
+  height: 10px;
+  font-size: 5px;
+  left: 100px;
+}
+.delete-button {
+  position: absolute;
+  width: 5%;
+  height: 10px;
+  font-size: 5px;
+  left: 130px;
+}
+.nameInput {
+  margin-top: 20px;
 }
